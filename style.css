@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-size:100%;
+  background-color: white;
+}
+
+.ombra{
+  background-color:rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin:2% 18%;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+#logo{
+  height:90px;
+  padding-top: 50px;
+}
+
+h1{
+  color:#00DD00;
+  margin:0px;
+  font-family: sans-serif;
+}
+
+nav{
+  background-color:#00DD00;
+  padding: 10px;
+  margin: 5px 5%;
+}
+
+nav + *{
+  text-align:left;
+  margin: 5px 5%;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.monopattino>*{
+  display: inline-block;
+  color: white;
+}
+
+main p{
+  margin: 3px;
+  color: lightgrey;
+  font-size: 12px;
+}
+
+h3{margin: 10px;;}
+
+.freccia:before{ content:"\21A6";}
+
+#power-gino{
+  height: 15px;
+  width: 38%;
+  border: 1 solid;
+  border-radius: 5px;
+  background-color:#F5B453;
+}
+
+#power-mike{
+  height: 15px;
+  width: 50%;
+  border: 1 solid;
+  border-radius: 5px;
+  background-color:#1EC31E;
+}
+
+#power-fede{
+  height: 15px;
+  width: 25%;
+  border: 1 solid;
+  border-radius: 5px;
+  background-color:#BE4141;
+}
